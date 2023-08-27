@@ -3,9 +3,7 @@
 import dynamic from 'next/dynamic';
 import Image from 'next/image'
 
-// import DynamicComponent from './lazycomponent'
-
-const DynamicComponent = dynamic(() => import('./lazycomponent'))
+const DynamicComponent = dynamic(() => import('../lazycomponent'))
 
 export default function Home() {
   return (
